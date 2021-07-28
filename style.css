@@ -1,4 +1,5 @@
 body {
+  background: #f3f3f3;
   font-family: "Montserrat", sans-serif;
   margin: 0;
 }
@@ -69,3 +70,95 @@ p {
   width: 80%;
 }
 /* about me section end */
+
+/* Recipies Section start  */
+.heading {
+  text-align: center;
+}
+.heading p {
+  width: 50%;
+  margin: auto;
+}
+.box-design {
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  margin: 0px 54px;
+  padding: 1%;
+}
+.box-design img {
+  width: 100%;
+}
+/* Recipies Section end */
+
+/* Social section start  */
+.social-area {
+  justify-content: space-around;
+  margin: 150px 54px;
+  padding: 64px 165px;
+}
+.social h2 {
+  color: #000;
+  line-height: 0;
+}
+/* Social section end */
+
+/*============================ Extra sections=====================*/
+
+/* Newsletter Section start  */
+.newsletter {
+  text-align: center;
+}
+.newsletter input {
+  padding: 20px 28px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+input:focus {
+  outline: none;
+}
+.extra {
+  border-radius: 10px;
+  padding: 20px 28px;
+}
+/* Newsletter Section end */
+
+/* Contact us section start */
+.contact-area {
+  background-image: url(images/Frame\ contact\ area.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 50px auto;
+  padding: 5%;
+}
+.contact-area h2 {
+  text-align: center;
+}
+textarea {
+  font-size: 18px;
+  padding: 15px 180px;
+  border-radius: 10px;
+}
+.form input {
+  font-size: 18px;
+  padding: 15px 180px;
+  border-radius: 10px;
+}
+/* Contact us section end */
+
+/* footer area start */
+footer {
+  background-color: #0b0d17;
+  padding: 5%;
+  text-align: center;
+}
+footer h3 {
+  color: #707070;
+  font-size: 30px;
+}
+footer p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
+/* footer area end */
