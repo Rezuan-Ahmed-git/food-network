@@ -108,9 +108,10 @@ p {
 /* Newsletter Section start  */
 .newsletter {
   text-align: center;
+  padding: 5% 0;
 }
 .newsletter input {
-  padding: 20px 28px;
+  padding: 20px 88px;
   border-radius: 10px;
   margin-top: 40px;
 }
@@ -128,7 +129,7 @@ input:focus {
   background-image: url(images/Frame\ contact\ area.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 50px auto;
+  margin-top: 100px;
   padding: 5%;
 }
 .contact-area h2 {
